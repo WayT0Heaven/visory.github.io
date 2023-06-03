@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Grow Visory</title>
+      <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="preload" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" as="style">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" media="print" onload="this.media='all'">
+      <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lato&display=swap" as="style">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap" media="print" onload="this.media='all'">
+      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+   </head>
+   <body>
+      <header>
+         <div class="header-container">
+            <div class="logo" data-aos="fade-up">
+               <h1>GROW VISORY</h1>
+            </div>
+            <nav class="navigation" data-aos="fade-down" data-aos-duration="500" data-aos-offset="10" >
+               <ul>
+                  <li><a href="#" class="active">Home</a></li>
+                  <li><a href="#">Our Services</a></li>
+                  <li><a href="#">Why GV</a></li>
+                  <li><a href="#">Contact Us</a></li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <!-- hero section  -->
+      <section class="hero-container">
+         <div class="hero-content">
+            <div class="text-content" data-aos-duration="600"  data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"  >
+               <h1>
+                  Grow your <br>
+                  Business <br>
+                  with <span>GROW VISORY</span>
+               </h1>
+               <p>A complete solution for Business Enhancement.</p>
+               <a href="#">Know More <i class="fa-solid fa-greater-than"></i></a>
+            </div>
+            <div class="image-content" data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="600" data-aos-delay="500">
+               <img src="images/hero-image.jpg" alt="">
+            </div>
+         </div>
+      </section>
+      <!-- services section -->
+      <section class="services">
+         <div class="services-heading">
+            <h1> Our services </h1>
+         </div>
+         <div class="cards-container swiper mySwiper">
+            <div class="swiper-wrapper">
+               <div class="cards" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="500">
+                  <div class="cards-detail">
+                     <h5> Your Image</h5>
+                     <h3> <span class="services-heading-number-color">01. </span>Graphic Designing</h3>
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, saepe?</p>
+                  </div>
+               </div>
+               <div class="cards" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="500" data-aos-delay="300">
+                  <div class="cards-detail">
+                     <h5> Your Image</h5>
+                     <h3> <span class="services-heading-number-color">02. </span>Video & Animation</h3>
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, saepe?</p>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+         </div>
+      </section>
+      <section class="visory-container">
+         <div class="visory-content">
+            <h2 data-aos="slide-up">Why Grow Visory?</h2>
+            <img src="images/visory-image.jpg" alt="" data-aos="slide-up" loading="lazy">
+         </div>
+         <div class="visory-rules">
+            <p data-aos="fade-up" data-aos-delay="100" data-aos-offset="100" data-aos-duration="500"><span class="visory-rules-color-number">01.</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat perferendis, nesciunt iure deserunt id eligendi?</p>
+            <p data-aos="fade-up" data-aos-delay="200" data-aos-offset="100" data-aos-duration="500"><span class="visory-rules-color-number">02.</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat perferendis, nesciunt iure deserunt id eligendi?</p>
+            <p data-aos="fade-up" data-aos-delay="300" data-aos-offset="100" data-aos-duration="500"><span class="visory-rules-color-number">03.</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat perferendis, nesciunt iure deserunt id eligendi?</p>
+            <p data-aos="fade-up" data-aos-delay="400" data-aos-offset="100" data-aos-duration="500"><span class="visory-rules-color-number">04.</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat perferendis, nesciunt iure deserunt id eligendi?</p>
+            <p data-aos="fade-up" data-aos-delay="500" data-aos-offset="100" data-aos-duration="500"><span class="visory-rules-color-number">05.</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat perferendis, nesciunt iure deserunt id eligendi?</p>
+         </div>
+      </section>
+      
+      <section class="contact-container">
+         <div class="contact-content">
+            <h2 data-aos="slide-left">Contact Us</h2>
+            <img src="images/contact-image.jpg" alt="" data-aos="fade-up">
+         </div>
+         <div class="form-container" data-aos="fade-down">
+            <form class="contact-form">
+               <div class="inputField">
+                  <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required=""
+                     min="3"
+                     maxlength="15">
+                  <span class="valid_info_name"></span>
+               </div>
+               <div class="inputField">
+                  <input type="Email" name="email" id="email" placeholder="Email"  required="" />
+                  <span class="valid_info_email"></span>
+               </div>
+               <div class="inputField">
+                  <textarea name="message" id="message" placeholder="Email"></textarea>
+                  <span class="valid_info_message"></span>
+               </div>
+               <button type="submit" class="submit-button">Submit</button>
+            </form>
+         </div>
+      </section>
+      <script src="https://kit.fontawesome.com/4fdcfcf762.js" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+      <script>
+         var swiper = new Swiper(".mySwiper", {
+           slidesPerView: 2,
+           spaceBetween: 30,
+           slidesPerGroup:3,
+           loop:true,
+           loopFillGroupWithBlank:true,
+           pagination:{
+             el:".swiper-pagination",
+             clickable:true,
+           },
+         
+           navigation: {
+             nextEl: ".swiper-button-next",
+             prevEl: ".swiper-button-prev",
+           },
+         });
+         AOS.init();
+         
+      </script>
+      <script src="script.js"></script>
+   </body>
+</html>

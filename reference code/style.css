@@ -1,0 +1,439 @@
+@import "https://fonts.googleapis.com/css?family=Roboto";
+ @import "https://fonts.googleapis.com/css?family=Open+Sans";
+ @import "https://fonts.googleapis.com/css?family=Lato";
+ @import "https://fonts.googleapis.com/css?family=Montserrat";
+ @import "https://fonts.googleapis.com/css?family=PT+Sans";
+ @import "https://fonts.googleapis.com/css?family=Roboto+Condensed";
+ @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro";
+ @import "https://fonts.googleapis.com/css?family=Ubuntu";
+ @import "https://fonts.googleapis.com/css?family=Oswald";
+ @import "https://fonts.googleapis.com/css?family=Poppins";
+ @import "https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap";
+ *,nav ul {
+     padding:0;
+     margin:0 
+}
+ nav .active,nav ul li a:hover {
+     color:var(--color-deep-red) 
+}
+ .leadership,.logo h1 {
+     user-select:none 
+}
+ *,nav ul {
+     margin:0 
+}
+ .logo,.read-more-btn {
+     font-family:var(--font-ubuntu) 
+}
+ .features,.hero,.leaders,.logo,.martyr-container,header,nav ul {
+     display:flex 
+}
+ .box,.feature,.leadership h1,.shia-image {
+     text-align:center 
+}
+ #martyrs,.box::after {
+     background-position:center center;
+     background-repeat:no-repeat;
+     background-size:cover 
+}
+ :root {
+     --color-dark-blue:#2C3E50;
+     --color-slate-grey:#34495E;
+     --color-deep-red:#E74C3C;
+     --color-navy-blue:#2980B9;
+     --color-forest-green:#27AE60;
+     --color-bright-yellow:#F1C40F;
+     --color-deep-purple:#8E44AD;
+     --color-lime-green:#2ECC71;
+     --color-light-blue:#3498DB;
+     --color-coral:#FF7F50;
+     --color-teal:#1ABC9C;
+     --color-light-pink:#FFC0CB;
+     --color-light-grey:#7F8C8D;
+     --color-orange:#F39C12;
+     --color-magenta:#9B59B6;
+     --color-sea-green:#16A085;
+     --color-silver:#BDC3C7;
+     --color-bright-orange:#E67E22;
+     --color-indigo:#1F618D;
+     --color-dark-red:#C0392B;
+     --gradient-1:linear-gradient(to bottom,#2C3E50,#34495E);
+     --gradient-2:linear-gradient(to bottom,#E74C3C,#2980B9);
+     --gradient-3:linear-gradient(to bottom,#27AE60,#F1C40F);
+     --gradient-4:linear-gradient(to bottom,#8E44AD,#2ECC71);
+     --gradient-5:linear-gradient(to bottom,#3498DB,#FF7F50);
+     --gradient-6:linear-gradient(to bottom,#1ABC9C,#FFC0CB);
+     --gradient-7:linear-gradient(to bottom,#7F8C8D,#F39C12);
+     --gradient-8:linear-gradient(to bottom,#9B59B6,#16A085);
+     --gradient-9:linear-gradient(to bottom,#BDC3C7,#E67E22);
+     --gradient-10:linear-gradient(to bottom,#1F618D,#C0392B);
+     --gradient-11:linear-gradient(to bottom,#34495E,#27AE60);
+     --gradient-12:linear-gradient(to bottom,#2980B9,#8E44AD);
+     --gradient-13:linear-gradient(to right,#2ECC71,#FF7F50);
+     --gradient-14:linear-gradient(to bottom,#F1C40F,#1ABC9C);
+     --gradient-15:linear-gradient(to bottom,#FFC0CB,#3498DB);
+     --gradient-16:linear-gradient(to bottom,#F39C12,#9B59B6);
+     --gradient-17:linear-gradient(to bottom,#16A085,#BDC3C7);
+     --gradient-18:linear-gradient(to bottom,#E67E22,#1F618D);
+     --gradient-19:linear-gradient(to bottom,#C0392B,#2C3E50);
+     --gradient-20:linear-gradient(to bottom,#34495E,#F1C40F);
+     --font-roboto:Roboto,sans-serif;
+     --font-open-sans:'Open Sans',sans-serif;
+     --font-lato:Lato,sans-serif;
+     --font-montserrat:Montserrat,sans-serif;
+     --font-pt-sans:'PT Sans',sans-serif;
+     --font-roboto-condensed:'Roboto Condensed',sans-serif;
+     --font-source-sans-pro:'Source Sans Pro',sans-serif;
+     --font-ubuntu:Ubuntu,sans-serif;
+     --font-oswald:Oswald,sans-serif;
+     --font-poppins:Poppins,sans-serif;
+     --font-quicksand:Quicksand,sans-serif 
+}
+ * {
+     box-sizing:border-box 
+}
+ ::selection {
+     color:#fff;
+     background-color:#27ae60 
+}
+ html {
+     scroll-behavior:smooth 
+}
+ header {
+     justify-content:space-between;
+     align-items:center;
+     padding:10px;
+     background-color:#fff;
+     line-height:2;
+     height:10vh 
+}
+ nav ul {
+     list-style:none 
+}
+ nav li a {
+     margin:0 10px;
+     font-size:16px;
+     color:#333;
+     font-family:Quicksand,sans-serif;
+     text-decoration:none;
+     font-weight:600 
+}
+ nav ul li a:hover {
+     cursor:pointer 
+}
+ .logo {
+     align-items:end 
+}
+ .logo h1 {
+     font:700 30px sans-serif;
+     background:var(--gradient-13);
+     -webkit-background-clip:text;
+     -moz-background-clip:text;
+     background-clip:text;
+     color:transparent;
+     text-shadow:none 
+}
+ .hero,.martyr-container {
+     padding:100px 20px;
+     text-align:center;
+     justify-content:center;
+     align-items:center 
+}
+ .hero h1,.martyr-container h1 {
+     margin-top:36px;
+     font-family:"Google Sans",Roboto,Arial,Helvetica,sans-serif;
+     font-size:28px;
+     letter-spacing:normal;
+     margin-bottom:0;
+     color:#202124;
+     line-height:1.5;
+     user-select:none 
+}
+ .hero h1 .green {
+     color:var(--color-forest-green) 
+}
+ .hero h1 .purple {
+     color:var(--color-magenta) 
+}
+ .hero h1 .blue {
+     color:var(--color-light-blue) 
+}
+ .features {
+     flex-wrap:wrap;
+     justify-content:center;
+     margin:50px 0 
+}
+ .feature {
+     width:25%;
+     padding:20px;
+     box-shadow:0 0 10px rgba(0,0,0,.2);
+     margin:10px 
+}
+ .feature i {
+     font-size:48px;
+     margin-bottom:20px;
+     color:var(--color-lime-green) 
+}
+ .feature h3 {
+     font-size:24px;
+     margin-bottom:10px;
+     font-family:var(--font-poppins) 
+}
+ .feature p {
+     font-size:18px;
+     line-height:1.5;
+     font-family:var(--font-roboto) 
+}
+ .leadership h1,.shia-info h2 {
+     font-family:var(--font-quicksand);
+     color:#202124 
+}
+ .background-leadership {
+     background:linear-gradient(to top left,#fff,#f5f5f5 50%,#fff);
+     background-attachment:fixed;
+     background-size:cover 
+}
+ .leadership h1 {
+     font-size:50px;
+     font-weight:1000;
+     margin-bottom:100px;
+     position:relative;
+     z-index:1 
+}
+ .leaders {
+     flex-direction:row;
+     justify-content:center;
+     align-items:center;
+     flex-wrap:nowrap 
+}
+ .leaders-content {
+     margin-top:10rem;
+     overflow-x:visible 
+}
+ .box,.swiper-container {
+     position:relative;
+     overflow:hidden 
+}
+ .khamnei img,.sistani img,.vahid img {
+     height:35vh;
+     border-radius:50%;
+     position:relative;
+     z-index:1;
+     margin-bottom:100px 
+}
+ .khamnei .overlay,.sistani .overlay,.vahid .overlay {
+     position:absolute;
+     background-color:rgba(0,0,0,.8);
+     color:#fff;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;
+     opacity:0;
+     z-index:2;
+     transition:opacity .5s ease-in-out;
+     margin:0;
+     max-width:33vh;
+     border-radius:50%;
+     height:35vh 
+}
+ .khamnei .overlay {
+     max-width:34.7vh 
+}
+ .vahid .overlay {
+     max-width:35.5vh 
+}
+ .khamnei:hover .overlay,.sistani:hover .overlay,.vahid:hover .overlay {
+     opacity:1 
+}
+ .khamnei .overlay h5,.khamnei .overlay p,.sistani .overlay h5,.sistani .overlay p,.vahid .overlay h5,.vahid .overlay p {
+     position:relative;
+     transform:translateY(100%);
+     transition:transform .2s ease-out;
+     z-index:3 
+}
+ .khamnei:hover .overlay h5,.khamnei:hover .overlay p,.sistani:hover .overlay h5,.sistani:hover .overlay p,.vahid:hover .overlay h5,.vahid:hover .overlay p {
+     transform:translateY(0);
+     transition-delay:.2s 
+}
+ .khamnei:hover img,.sistani:hover img,.vahid:hover img {
+     filter:brightness(50%);
+     z-index:-1 
+}
+ .swiper-container {
+     height:100%;
+     width:100% 
+}
+ .swiper-pagination-bullet {
+     width:12px;
+     height:12px;
+     border-radius:50%;
+     background-color:var(--color-light-gray);
+     border:2px solid var(--color-dark-blue);
+     cursor:pointer;
+     transition:transform .2s ease-in-out 
+}
+ .swiper-pagination-bullet-active {
+     background-color:var(--color-dark-blue);
+     transform:scale(1.2) 
+}
+ .shia-section {
+     background-color:#f5f5f5;
+     padding:60px 0 
+}
+ .shia-container {
+     max-width:1000px;
+     margin:100px auto 0;
+     display:flex;
+     flex-wrap:wrap;
+     align-items:center 
+}
+ .box__content,.box__head {
+     margin-bottom:40px;
+     display:flex 
+}
+ .shia-info {
+     flex-basis:50%;
+     padding:0 40px 
+}
+ .shia-info h2 {
+     font-size:36px;
+     font-weight:600;
+     margin-bottom:20px 
+}
+ .shia-info p {
+     font-size:18px;
+     line-height:1.5;
+     margin-bottom:30px;
+     font-family:var(--font-roboto-condensed) 
+}
+ .read-more-btn {
+     padding:10px 20px;
+     background-color:#363636;
+     color:#fff;
+     font-size:16px;
+     border:none;
+     border-radius:4px;
+     cursor:pointer;
+     transition:background-color .3s 
+}
+ .read-more-btn:hover {
+     background-color:#000 
+}
+ .shia-image {
+     flex-basis:50% 
+}
+ .shia-image img {
+     max-width:100%;
+     border-radius:4px 
+}
+ .wrapper {
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     padding-top:120px;
+     padding-bottom:80px 
+}
+ .container {
+     width:1170px;
+     display:grid;
+     grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+     gap:30px;
+     padding-left:20px;
+     padding-right:20px 
+}
+ .box {
+     background:rgba(0,0,0,.5);
+     width:100%;
+     height:400px;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;
+     border-radius:20px;
+     -webkit-border-radius:20px;
+     -moz-border-radius:20px;
+     -ms-border-radius:20px;
+     -o-border-radius:20px 
+}
+ .box::after {
+     content:"";
+     background-image:url(/images/background/blood-bg.jpg);
+     position:absolute;
+     inset:4px;
+     border-radius:16px #000;
+     -webkit-border-radius:16px;
+     -moz-border-radius:16px;
+     -ms-border-radius:16px;
+     -o-border-radius:16px 
+}
+ .box__content,.box__head,.box__social {
+     z-index:1 
+}
+ .box__head {
+     width:130px;
+     max-width:100%;
+     justify-content:center;
+     align-items:center 
+}
+ .box__head>img {
+     width:150px;
+     height:150px;
+     object-fit:cover;
+     border-radius:100%;
+     -webkit-border-radius:50%;
+     -moz-border-radius:50%;
+     -ms-border-radius:50%;
+     -o-border-radius:50% 
+}
+ .box__content {
+     flex-direction:column;
+     row-gap:20px 
+}
+ .box__content>h2 {
+     color:#000;
+     font-size:1.5rem;
+     font-weight:600 
+}
+ .box__content>p {
+     color:#586295;
+     line-height:1.5;
+     font-weight:300 
+}
+.justice {
+    position: relative;
+    background-color: #000;
+    padding: 20px;
+    height: 100vh;
+ }
+ 
+ #crimeHeading {
+    color: red;
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    text-align: center;
+ }
+ 
+ .bloody-texture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: red;
+    opacity: 0.8;
+    pointer-events: none;
+    mix-blend-mode: multiply;
+    z-index: -1;
+ }
+ 
+ /* Optional: Add animation */
+ @keyframes flicker {
+    0%, 100% {
+       opacity: 0.8;
+    }
+    50% {
+       opacity: 0.5;
+    }
+ }
+ 
